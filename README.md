@@ -1,5 +1,6 @@
 Product Requirements Document: ICC Pipeline & Schedule
 1. Problems We Are Solving
+   
 Financial Blind Spots: Business owners currently have to guess or manually calculate how the company is doing financially in terms of active pipeline, potential profit, and closed-won revenue.
 
 Leads Slipping Through the Cracks: Without a visual, deal-by-deal tracking system, individual opportunities can easily be forgotten or stalled in the sales process.
@@ -7,6 +8,7 @@ Leads Slipping Through the Cracks: Without a visual, deal-by-deal tracking syste
 Fragmented Scheduling: Traditional calendars require users to click through month by month to figure out what projects are coming up, making it difficult to get a high-level view of the company's yearly timeline.
 
 2. Product Goals
+   
 Instant Financial Visibility: Provide a real-time, zero-effort dashboard that calculates key business metrics (including projected and actual profit) automatically.
 
 Frictionless Pipeline Management: Create a visual Kanban board that makes adding and moving deals effortless while capturing scheduling data early.
@@ -14,6 +16,7 @@ Frictionless Pipeline Management: Create a visual Kanban board that makes adding
 Simplified Yearly Scheduling: Deliver a single-page, Gantt-style yearly overview specifically for scheduled, closed-won projects that is highly legible.
 
 3. Epics
+   
 Epic 1: The Pipeline View
 This epic covers the core sales tracking functionality, combining high-level financial and profit metrics (Dashboard) with granular, day-to-day deal management (Kanban Board).
 
@@ -21,6 +24,7 @@ Epic 2: The Calendar View
 This epic focuses on operational visibility, translating closed-won sales into a manageable, visually distinct, year-at-a-glance project schedule.
 
 4. User Stories
+   
 Epic 1: Pipeline View
 
 Dashboard: As a business owner, I want to see an overall dashboard of active deals, pipeline value, lost value, and profit metrics, so that I do not have to guess how the company is doing financially.
@@ -38,6 +42,7 @@ Won Project Filtering: As a business owner, I want the calendar to automatically
 Visual Clarity: As a business owner, I want each project on the calendar to be visually distinct from the others, so that I am never confused about where one project ends and another begins.
 
 5. Functional Requirements
+   
 5.1 Pipeline Dashboard
 The system must display a real-time count of total Active Deals (deals in active stages like Quoted or Review).
 
@@ -54,6 +59,7 @@ The system must calculate and display the Profit of Closed Won (the actual calcu
 The system must calculate and display the Projected Profit of Pipeline (the estimated future profit of all active deals currently in the pipeline).
 
 5.2 Kanban Pipeline Board
+
 Stages: The board must have predefined columns representing the sales cycle (e.g., Leads, Quoted, Review, Won, Lost).
 
 Deal Creation: Users must be able to add a new deal via a simple form requiring core information: Client Name, Amount, City, and Type.
@@ -65,6 +71,7 @@ Drag-and-Drop: Users must be able to drag a deal card from one column and drop i
 Card Display: Each deal card must visually render the Client Name, Amount, City, and Type directly on the face of the card.
 
 5.3 Calendar / Schedule View
+
 Single-Page Layout: The calendar must render all 12 months of the year on a single, scrollable view.
 
 Gantt Chart UI: Projects must be represented as horizontal bars spanning across the days they are active.
