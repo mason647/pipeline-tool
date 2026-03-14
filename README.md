@@ -1,6 +1,7 @@
-# ICC Pipeline & Schedule - 
+# ICC Pipeline & Schedule Tool - 
 
 ### prodreqdoc.md - Product Requirements Document - Status: WIP
+* https://github.com/mason647/pipeline-tool/blob/main/prodreqdoc.md
 ### README.md - Project brainstorm and organization - Status - WIP
 
 ## Brainstorm - Feature List
