@@ -1,7 +1,7 @@
 # ICC Pipeline & Schedule - 
 
-prodreqdoc.md - Product Requirements Document - Status: WIP
-README.md - Project brainstorm and organization - Status - WIP
+### prodreqdoc.md - Product Requirements Document - Status: WIP
+### README.md - Project brainstorm and organization - Status - WIP
 
 ## Brainstorm - Feature List
 
