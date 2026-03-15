@@ -15,6 +15,7 @@
     * City
     * Dollar Amount
     * *Optional:* Start Date & how many days it will take.
+    * Either attach/add an estimate OR Create an estimate
 * **The "At-a-Glance" Card:** The front of the card must show the Name, $, City, and Type without needing to click it.
 * **The Scoreboard (Dashboard):** A header that live-calculates:
     * Total number of active deals.
